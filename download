@@ -1,31 +1,31 @@
 #!/bin/bash
 
-API_KEY="dmm_live_3WV5B7Ersvt5jqjaIXiqUTX0XNnAyzUnREJKbLFyKJgroSz9MO58UMTT5KcWcCj2"
+DMM_API_KEY="xxx"
 
 function touch2() { mkdir -p "$(dirname "$1")" && touch "$1" ; }
 
-function toDir() {
+function downloadAll() {
   filename="${1}.json"
   foldername=$1
 
   curl -X 'GET' \
       "http://localhost:8080/api/$foldername" \
       -H "accept: application/json" \
-      -H "x-api-key: $API_KEY" > $filename
+      -H "x-api-key: $DMM_API_KEY" > $filename
 
   mkdir -p "./${foldername}"
   jq -cr 'keys[] as $k | "\($k)\n\(.[$k])"' $filename | while read -r key; do
     fname=$(jq --raw-output ".[$key].id" $filename)
     read -r item
     touch2 "./${foldername}/${fname}.json"
-    printf '%s\n' "$item" >> "./${foldername}/${fname}.json"
+    printf '%s\n' "$item" > "./${foldername}/${fname}.json"
     yq --input-format=json --output-format=yaml --prettyPrint "./${foldername}/${fname}.json" > "./${foldername}/${fname}.yaml"
   done
 }
 
-toDir "teams"
-toDir "dataproducts"
-toDir "datausageagreements"
-toDir "sourcesystems"
-toDir "datacontracts"
-toDir "definitions"
+downloadAll "teams"
+downloadAll "dataproducts"
+downloadAll "datausageagreements"
+downloadAll "sourcesystems"
+downloadAll "datacontracts"
+downloadAll "definitions"

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+DMM_API_KEY="xxx"
+
+function uploadAll() {
+  foldername=$1
+  files="./$foldername/*.yaml"
+  for f in $files
+  do
+    id=$(yq .id $f)
+    json=$(yq -o json $f)
+    curl -X 'PUT' \
+      "https://app.datamesh-manager.com/api/$foldername/$id" \
+      -H "accept: */*" \
+      -H "x-api-key: $DMM_API_KEY" \
+      -H "Content-Type: application/json" \
+      -d "$json"
+  done
+}
+
+function approveAllDataUsageAgreements() {
+  files="./datausageagreements/*.yaml"
+  for f in $files
+  do
+    id=$(yq .info.id $f)
+    json=$(yq -o json $f)
+
+    curl -X 'POST' \
+      "https://app.datamesh-manager.com/api/datausageagreements/$id/approve" \
+      -H "accept: */*" \
+      -H "x-api-key: $DMM_API_KEY"
+
+  done
+}
+
+uploadAll "teams"
+uploadAll "sourcesystems"
+uploadAll "definitions"
+uploadAll "datacontracts"
+uploadAll "dataproducts"
+uploadAll "datausageagreements"
+approveAllDataUsageAgreements
+uploadAll "checks"
