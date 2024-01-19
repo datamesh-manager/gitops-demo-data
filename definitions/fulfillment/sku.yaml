@@ -1,0 +1,16 @@
+id: fulfillment/sku
+owner: products
+domain: fulfillment
+name: sku
+title: Stock Keeping Unit
+description: |-
+  A Stock Keeping Unit (SKU) is an internal unique identifier for an article.
+  It is typically associated with an article's barcode, such as the EAN/GTIN.
+type: string
+minLength: 8
+maxLength: 14
+pattern: ^[A-Za-z0-9]{8,14}$
+example: AC1212ME1
+pii: false
+classification: internal
+tags: []

@@ -1,0 +1,31 @@
+id: fulfillment
+name: Fulfillment
+type: Domain Team
+members:
+  - emailAddress: ollie.blessing@demo224RhmrdSzYwVfs6cQuATA.datamesh-manager.com
+    role: Team Member
+  - emailAddress: kaison.makenna@demo7313CjTEgkscFrk0SRRKNl.datamesh-manager.com
+    role: Team Member
+  - emailAddress: rozanne.dinah@demo2AJalj7XVquGubxe7WBsZz.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: fulfillment
+name: Fulfillment
+type: Domain Team
+members:
+  - emailAddress: ollie.blessing@demo224RhmrdSzYwVfs6cQuATA.datamesh-manager.com
+    role: Team Member
+  - emailAddress: kaison.makenna@demo7313CjTEgkscFrk0SRRKNl.datamesh-manager.com
+    role: Team Member
+  - emailAddress: rozanne.dinah@demo2AJalj7XVquGubxe7WBsZz.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

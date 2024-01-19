@@ -1,0 +1,13 @@
+id: checkout/customer_email
+owner: checkout
+domain: checkout
+name: customer_email
+title: Customer Email
+description: The email address of a customer.
+type: string
+format: email
+pattern: ^.*@.*$
+example: mail@example.com
+pii: true
+classification: sensitive
+tags: []

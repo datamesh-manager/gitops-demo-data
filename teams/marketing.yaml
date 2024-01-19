@@ -1,0 +1,35 @@
+id: marketing
+name: Marketing
+type: Domain Team
+members:
+  - emailAddress: justice.sukie@demo7hqlo9irjd8Uu4AObS4K0o.datamesh-manager.com
+    role: Team Member
+  - emailAddress: freida.louisa@demo1QBwIoO3M1NtzKq0xNAgpB.datamesh-manager.com
+    role: Team Member
+  - emailAddress: thom.traci@demo4Gx9104ROi8anWpR6mx6YL.datamesh-manager.com
+    role: Team Member
+  - emailAddress: smith.billie@demozI0LM2WIgSWeq5QElCM6L.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: marketing
+name: Marketing
+type: Domain Team
+members:
+  - emailAddress: justice.sukie@demo7hqlo9irjd8Uu4AObS4K0o.datamesh-manager.com
+    role: Team Member
+  - emailAddress: freida.louisa@demo1QBwIoO3M1NtzKq0xNAgpB.datamesh-manager.com
+    role: Team Member
+  - emailAddress: thom.traci@demo4Gx9104ROi8anWpR6mx6YL.datamesh-manager.com
+    role: Team Member
+  - emailAddress: smith.billie@demozI0LM2WIgSWeq5QElCM6L.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

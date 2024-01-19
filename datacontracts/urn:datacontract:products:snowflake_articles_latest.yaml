@@ -1,0 +1,119 @@
+dataContractSpecification: 0.9.2
+id: urn:datacontract:products:snowflake_articles_latest
+info:
+  title: Articles
+  version: 1.0.0
+  description: Current state of all articles
+  owner: products
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  articles_latest:
+    description: Articles
+    fields:
+      sku:
+        required: true
+        unique: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/fulfillment/sku
+      name:
+        type: text
+        description: The name of the article
+        tags: []
+      color:
+        type: text
+        description: The color of the article
+        tags: []
+      brand_name:
+        type: text
+        description: The brand of the article
+        tags: []
+      timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/actual_timestamp
+      processing_timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/processed_timestamp
+definitions: {}
+examples:
+  - type: csv
+    model: articles_latest
+    description: ""
+    data: |-
+      sku,name,color,brand_name,timestamp,processing_timestamp
+      "SKU1234","Men's T-Shirt","Blue","BrandX","2023-07-28 09:15:00","2023-07-28 09:17:30"
+      "SKU5678","Women's Dress","Red","BrandY","2023-07-28 10:30:45","2023-07-28 10:32:12"
+      "SKU9876","Running Shoes","Black","BrandZ","2023-07-28 11:45:20","2023-07-28 11:48:05"
+      "SKU5432","Wireless Earbuds","White","BrandA","2023-07-28 12:55:10","2023-07-28 12:57:40"
+      "SKU7890","Smartphone Case","Pink","BrandB","2023-07-28 13:10:15","2023-07-28 13:12:22"
+      "SKU2345","Men's Jeans","Denim","BrandX","2023-07-28 14:20:30","2023-07-28 14:23:10"
+      "SKU8765","Women's Handbag","Brown","BrandY","2023-07-28 15:40:00","2023-07-28 15:42:18"
+      "SKU4321","Fitness Tracker","Green","BrandC","2023-07-28 16:55:30","2023-07-28 16:57:50"
+      "SKU6789","Gaming Mouse","Black","BrandD","2023-07-28 17:30:20","2023-07-28 17:33:00"
+      "SKU9876","Smart TV","Silver","BrandE","2023-07-28 18:15:45","2023-07-28 18:18:12"
+---
+dataContractSpecification: 0.9.2
+id: urn:datacontract:products:snowflake_articles_latest
+info:
+  title: Articles
+  version: 1.0.0
+  description: Current state of all articles
+  owner: products
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  articles_latest:
+    description: Articles
+    fields:
+      sku:
+        required: true
+        unique: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/fulfillment/sku
+      name:
+        type: text
+        description: The name of the article
+        tags: []
+      color:
+        type: text
+        description: The color of the article
+        tags: []
+      brand_name:
+        type: text
+        description: The brand of the article
+        tags: []
+      timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/actual_timestamp
+      processing_timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/processed_timestamp
+definitions: {}
+examples:
+  - type: csv
+    model: articles_latest
+    description: ""
+    data: |-
+      sku,name,color,brand_name,timestamp,processing_timestamp
+      "SKU1234","Men's T-Shirt","Blue","BrandX","2023-07-28 09:15:00","2023-07-28 09:17:30"
+      "SKU5678","Women's Dress","Red","BrandY","2023-07-28 10:30:45","2023-07-28 10:32:12"
+      "SKU9876","Running Shoes","Black","BrandZ","2023-07-28 11:45:20","2023-07-28 11:48:05"
+      "SKU5432","Wireless Earbuds","White","BrandA","2023-07-28 12:55:10","2023-07-28 12:57:40"
+      "SKU7890","Smartphone Case","Pink","BrandB","2023-07-28 13:10:15","2023-07-28 13:12:22"
+      "SKU2345","Men's Jeans","Denim","BrandX","2023-07-28 14:20:30","2023-07-28 14:23:10"
+      "SKU8765","Women's Handbag","Brown","BrandY","2023-07-28 15:40:00","2023-07-28 15:42:18"
+      "SKU4321","Fitness Tracker","Green","BrandC","2023-07-28 16:55:30","2023-07-28 16:57:50"
+      "SKU6789","Gaming Mouse","Black","BrandD","2023-07-28 17:30:20","2023-07-28 17:33:00"
+      "SKU9876","Smart TV","Silver","BrandE","2023-07-28 18:15:45","2023-07-28 18:18:12"

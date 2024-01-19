@@ -1,0 +1,101 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:fulfillment:shelf-warmers
+info:
+  title: Shelf Warmers
+  owner: fulfillment
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake_fulfillment_shelf_warmers
+    name: snowflake_fulfillment_shelf_warmers
+    description: A list of articles with no sales in last 6 months
+    type: snowflake
+    server:
+      schema: SHELF_WARMERS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: FULFILLMENT_DB
+    status: active
+    location: FULFILLMENT_DB.SHELF_WARMERS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_fulfillment_shelf_warmers
+    name: s3_fulfillment_shelf_warmers
+    description: A list of articles with no sales in last 6 months
+    type: S3
+    server:
+      location: s3://my-bucket
+    status: active
+    location: s3://my-bucket
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:fulfillment:shelf-warmers
+info:
+  title: Shelf Warmers
+  owner: fulfillment
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake_fulfillment_shelf_warmers
+    name: snowflake_fulfillment_shelf_warmers
+    description: A list of articles with no sales in last 6 months
+    type: snowflake
+    server:
+      schema: SHELF_WARMERS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: FULFILLMENT_DB
+    status: active
+    location: FULFILLMENT_DB.SHELF_WARMERS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_fulfillment_shelf_warmers
+    name: s3_fulfillment_shelf_warmers
+    description: A list of articles with no sales in last 6 months
+    type: S3
+    server:
+      location: s3://my-bucket
+    status: active
+    location: s3://my-bucket
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

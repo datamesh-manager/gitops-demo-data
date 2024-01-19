@@ -1,0 +1,29 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:realtime-user-classification
+info:
+  title: Realtime User Classification
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:realtime-user-classification
+info:
+  title: Realtime User Classification
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}

@@ -1,0 +1,17 @@
+id: fulfillment-stock-service
+name: Stock Service
+owner: fulfillment
+description: The central self-contained system for managing stock
+tags: []
+links:
+  Source System: http://internal.acme.example.com/fulfillment/stock-service
+custom: {}
+---
+id: fulfillment-stock-service
+name: Stock Service
+owner: fulfillment
+description: The central self-contained system for managing stock
+tags: []
+links:
+  Source System: http://internal.acme.example.com/fulfillment/stock-service
+custom: {}

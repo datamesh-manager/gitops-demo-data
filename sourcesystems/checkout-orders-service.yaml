@@ -1,0 +1,17 @@
+id: checkout-orders-service
+name: Order Service
+owner: checkout
+description: The central self-contained system for managing orders, customers, etc.
+tags: []
+links:
+  Source System: http://internal.acme.example.com/checkout/order-service
+custom: {}
+---
+id: checkout-orders-service
+name: Order Service
+owner: checkout
+description: The central self-contained system for managing orders, customers, etc.
+tags: []
+links:
+  Source System: http://internal.acme.example.com/checkout/order-service
+custom: {}

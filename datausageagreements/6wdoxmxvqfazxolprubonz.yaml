@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: 6wdoxmxvqfazxolprubonz
+info:
+  purpose: Aggregate to identify the top 100 search queries per day
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: search
+  dataProductId: urn:dataproduct:search:search-queries-all
+  outputPortId: search_queries_all_v1
+consumer:
+  teamId: search
+  dataProductId: urn:dataproduct:search:search-queries-top-100-by-day
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/search-queries-top-100-by-day
+---
+dataUsageAgreementSpecification: 0.0.1
+id: 6wdoxmxvqfazxolprubonz
+info:
+  purpose: Aggregate to identify the top 100 search queries per day
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: search
+  dataProductId: urn:dataproduct:search:search-queries-all
+  outputPortId: search_queries_all_v1
+consumer:
+  teamId: search
+  dataProductId: urn:dataproduct:search:search-queries-top-100-by-day
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/search-queries-top-100-by-day

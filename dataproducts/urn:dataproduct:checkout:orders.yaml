@@ -1,0 +1,127 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:checkout:orders
+info:
+  title: Orders
+  description: Successful customer orders in the webshop. All orders since 2020-01-01.
+  owner: checkout
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-orders
+    name: Orders Kafka
+    description: Order Updates in Kafka
+    sourceSystemId: checkout-orders-service
+    type: Kafka Topic
+    location: acme.orders
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.orders
+    custom: {}
+outputPorts:
+  - id: snowflake_orders_pii_v2
+    name: snowflake_orders_pii_v2
+    description: All order-created events, with PII.
+    type: snowflake
+    server:
+      schema: ORDERS_PII_V2
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ORDER_DB
+    status: active
+    location: ORDER_DB.ORDERS_PII_V2
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:snowflake_orders_pii_v2
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: snowflake_orders_npii_v2
+    name: snowflake_orders_npii_v2
+    description: All order-created events, PII removed.
+    type: snowflake
+    server:
+      schema: ORDERS_NPII_V2
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ORDER_DB
+    status: active
+    location: ORDER_DB.ORDERS_NPII_V2
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:snowflake_orders_npii_v2
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:checkout:orders
+info:
+  title: Orders
+  description: Successful customer orders in the webshop. All orders since 2020-01-01.
+  owner: checkout
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-orders
+    name: Orders Kafka
+    description: Order Updates in Kafka
+    sourceSystemId: checkout-orders-service
+    type: Kafka Topic
+    location: acme.orders
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.orders
+    custom: {}
+outputPorts:
+  - id: snowflake_orders_pii_v2
+    name: snowflake_orders_pii_v2
+    description: All order-created events, with PII.
+    type: snowflake
+    server:
+      schema: ORDERS_PII_V2
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ORDER_DB
+    status: active
+    location: ORDER_DB.ORDERS_PII_V2
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:snowflake_orders_pii_v2
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: snowflake_orders_npii_v2
+    name: snowflake_orders_npii_v2
+    description: All order-created events, PII removed.
+    type: snowflake
+    server:
+      schema: ORDERS_NPII_V2
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ORDER_DB
+    status: active
+    location: ORDER_DB.ORDERS_NPII_V2
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:snowflake_orders_npii_v2
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

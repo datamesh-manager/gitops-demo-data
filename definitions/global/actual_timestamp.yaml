@@ -1,0 +1,10 @@
+id: global/actual_timestamp
+owner: enabling-team
+domain: global
+name: actual_timestamp
+title: Actual Timestamp
+description: The timestamp when the actual business event happened.
+type: timestamp
+example: "2023-11-23T11:00:33Z"
+pii: false
+tags: []

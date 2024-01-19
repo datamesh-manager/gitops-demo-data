@@ -1,0 +1,39 @@
+id: governance-group
+name: Federated Governance Group
+type: Governance Group
+members:
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: juliet.peers@demo7wfympBvXRrFe7vvj1Bp3.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: smith.billie@demozI0LM2WIgSWeq5QElCM6L.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: eveline.emory@demo69DkO0jni8vxrLb5ObyTy4.datamesh-manager.com
+    role: Data Platform Owner
+  - emailAddress: brock.clare@demo2nat8OXM23426shSAzfrL6.datamesh-manager.com
+    role: SME Data Privacy
+  - emailAddress: michele.milano@demo5UIBXlmEvylcSnU2iyBpDn.datamesh-manager.com
+    role: Facilitator
+tags: []
+links: {}
+custom: {}
+---
+id: governance-group
+name: Federated Governance Group
+type: Governance Group
+members:
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: juliet.peers@demo7wfympBvXRrFe7vvj1Bp3.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: smith.billie@demozI0LM2WIgSWeq5QElCM6L.datamesh-manager.com
+    role: Data Product Owner
+  - emailAddress: eveline.emory@demo69DkO0jni8vxrLb5ObyTy4.datamesh-manager.com
+    role: Data Platform Owner
+  - emailAddress: brock.clare@demo2nat8OXM23426shSAzfrL6.datamesh-manager.com
+    role: SME Data Privacy
+  - emailAddress: michele.milano@demo5UIBXlmEvylcSnU2iyBpDn.datamesh-manager.com
+    role: Facilitator
+tags: []
+links: {}
+custom: {}

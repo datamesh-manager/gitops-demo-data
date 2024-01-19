@@ -1,0 +1,67 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:products:articles-latest
+info:
+  title: Articles latest
+  owner: products
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake_articles_latest
+    name: snowflake_articles_latest
+    description: Current state of all articles
+    type: snowflake
+    server:
+      schema: ARTICLES_LATEST
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ARTICLES_DB
+    status: active
+    location: ARTICLES_DB.ARTICLES_LATEST
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:products:snowflake_articles_latest
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:products:articles-latest
+info:
+  title: Articles latest
+  owner: products
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake_articles_latest
+    name: snowflake_articles_latest
+    description: Current state of all articles
+    type: snowflake
+    server:
+      schema: ARTICLES_LATEST
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ARTICLES_DB
+    status: active
+    location: ARTICLES_DB.ARTICLES_LATEST
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:products:snowflake_articles_latest
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

@@ -1,0 +1,197 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:checkout:customers
+info:
+  title: Customers
+  description: Customers are registered users and unregistered guest buyers in the online shop. Dataset all customers since launch of the online shop.
+  owner: checkout
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-customers
+    name: Customer Kafka
+    description: Customer Events in Kafka
+    sourceSystemId: checkout-orders-service
+    type: Kafka Topic
+    location: acme.customers.events
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.customers.events
+    custom: {}
+outputPorts:
+  - id: snowflake_customers_latest_npii_v1
+    name: snowflake_customers_latest_npii_v1
+    description: All customers in their latest state, PII removed.
+    type: snowflake
+    server:
+      schema: CUSTOMERS_LATEST_NPII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: CHECKOUT_DB
+    status: active
+    location: CHECKOUT_DB.CUSTOMERS_LATEST_NPII_V1
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:snowflake_customers_latest_npii_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: snowflake_customers_latest_pii_v1
+    name: snowflake_customers_latest_pii_v1
+    description: All customers in their latest state, PII included.
+    type: snowflake
+    server:
+      schema: CUSTOMERS_LATEST_PII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: CHECKOUT_DB
+    status: active
+    location: CHECKOUT_DB.CUSTOMERS_LATEST_PII_V1
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:snowflake_customers_latest_pii_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_customers_history_npii_v1
+    name: s3_customers_history_npii_v1
+    description: All customer states, updated on every modifying event. PII removed.
+    type: s3
+    server:
+      location: s3://acme-customers-history-npii-v1/output/data/
+    status: active
+    location: s3://acme-customers-history-npii-v1/output/data/
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:s3_customers_history_npii_v1
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_customers_history_pii_v1
+    name: s3_customers_history_pii_v1
+    description: All customer states, updated on every modifying event. PII included.
+    type: s3
+    server:
+      location: s3://acme-customers-history-pii-v1/output/data/
+    status: active
+    location: s3://acme-customers-history-pii-v1/output/data/
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:s3_customers_history_pii_v1
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links:
+  repository: https://gitlab.acme.example.com/checkout/data-product-customers
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:checkout:customers
+info:
+  title: Customers
+  description: Customers are registered users and unregistered guest buyers in the online shop. Dataset all customers since launch of the online shop.
+  owner: checkout
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-customers
+    name: Customer Kafka
+    description: Customer Events in Kafka
+    sourceSystemId: checkout-orders-service
+    type: Kafka Topic
+    location: acme.customers.events
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.customers.events
+    custom: {}
+outputPorts:
+  - id: snowflake_customers_latest_npii_v1
+    name: snowflake_customers_latest_npii_v1
+    description: All customers in their latest state, PII removed.
+    type: snowflake
+    server:
+      schema: CUSTOMERS_LATEST_NPII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: CHECKOUT_DB
+    status: active
+    location: CHECKOUT_DB.CUSTOMERS_LATEST_NPII_V1
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:snowflake_customers_latest_npii_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: snowflake_customers_latest_pii_v1
+    name: snowflake_customers_latest_pii_v1
+    description: All customers in their latest state, PII included.
+    type: snowflake
+    server:
+      schema: CUSTOMERS_LATEST_PII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: CHECKOUT_DB
+    status: active
+    location: CHECKOUT_DB.CUSTOMERS_LATEST_PII_V1
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:snowflake_customers_latest_pii_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_customers_history_npii_v1
+    name: s3_customers_history_npii_v1
+    description: All customer states, updated on every modifying event. PII removed.
+    type: s3
+    server:
+      location: s3://acme-customers-history-npii-v1/output/data/
+    status: active
+    location: s3://acme-customers-history-npii-v1/output/data/
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:checkout:s3_customers_history_npii_v1
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+  - id: s3_customers_history_pii_v1
+    name: s3_customers_history_pii_v1
+    description: All customer states, updated on every modifying event. PII included.
+    type: s3
+    server:
+      location: s3://acme-customers-history-pii-v1/output/data/
+    status: active
+    location: s3://acme-customers-history-pii-v1/output/data/
+    autoApprove: false
+    containsPii: true
+    dataContractId: urn:datacontract:checkout:s3_customers_history_pii_v1
+    tags:
+      - s3
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links:
+  repository: https://gitlab.acme.example.com/checkout/data-product-customers
+custom: {}

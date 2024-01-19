@@ -1,0 +1,29 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:search-queries-top-100-by-day
+info:
+  title: Search Queries Top 100 by day
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:search-queries-top-100-by-day
+info:
+  title: Search Queries Top 100 by day
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}

@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: dc1
+info:
+  purpose: Used to join master data
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-history
+  outputPortId: snowflake_articles_history
+consumer:
+  teamId: controlling
+  dataProductId: urn:dataproduct:controlling:article-profitability-analysis
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/article-profitability-analysis
+---
+dataUsageAgreementSpecification: 0.0.1
+id: dc1
+info:
+  purpose: Used to join master data
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-history
+  outputPortId: snowflake_articles_history
+consumer:
+  teamId: controlling
+  dataProductId: urn:dataproduct:controlling:article-profitability-analysis
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/article-profitability-analysis

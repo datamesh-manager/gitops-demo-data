@@ -1,0 +1,67 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:marketing:customer-cohorts
+info:
+  title: Customer Cohorts
+  owner: marketing
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake
+    name: snowflake
+    description: A table with customer cohorts and their properties
+    type: snowflake
+    server:
+      schema: CUSTOMER_COHORTS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: MARKETING_DB
+    status: active
+    location: MARKETING_DB.CUSTOMER_COHORTS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:marketing:snowflake
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:marketing:customer-cohorts
+info:
+  title: Customer Cohorts
+  owner: marketing
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: snowflake
+    name: snowflake
+    description: A table with customer cohorts and their properties
+    type: snowflake
+    server:
+      schema: CUSTOMER_COHORTS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: MARKETING_DB
+    status: active
+    location: MARKETING_DB.CUSTOMER_COHORTS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:marketing:snowflake
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

@@ -1,0 +1,85 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:fulfillment:stock-update-events
+info:
+  title: Stock Update Events
+  owner: fulfillment
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-stock
+    name: kafka-stock
+    description: kafka-stock
+    sourceSystemId: fulfillment-stock-service
+    type: Kafka
+    location: stock topic
+    tags: []
+    links: {}
+    custom: {}
+outputPorts:
+  - id: snowflake_fulfillment_stock_update_events
+    name: snowflake_fulfillment_stock_update_events
+    description: All stock updates since 2020
+    type: snowflake
+    server:
+      schema: STOCK_UPDATE_EVENTS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: FULFILLMENT_DB
+    status: active
+    location: FULFILLMENT_DB.STOCK_UPDATE_EVENTS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_stock_update_events
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:fulfillment:stock-update-events
+info:
+  title: Stock Update Events
+  owner: fulfillment
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-stock
+    name: kafka-stock
+    description: kafka-stock
+    sourceSystemId: fulfillment-stock-service
+    type: Kafka
+    location: stock topic
+    tags: []
+    links: {}
+    custom: {}
+outputPorts:
+  - id: snowflake_fulfillment_stock_update_events
+    name: snowflake_fulfillment_stock_update_events
+    description: All stock updates since 2020
+    type: snowflake
+    server:
+      schema: STOCK_UPDATE_EVENTS
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: FULFILLMENT_DB
+    status: active
+    location: FULFILLMENT_DB.STOCK_UPDATE_EVENTS
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:fulfillment:snowflake_fulfillment_stock_update_events
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

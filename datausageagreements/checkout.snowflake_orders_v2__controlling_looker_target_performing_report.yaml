@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: checkout.snowflake_orders_v2__controlling_looker_target_performing_report
+info:
+  purpose: Use orders to calculate payment amount
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:orders
+  outputPortId: snowflake_orders_npii_v2
+consumer:
+  teamId: controlling
+  dataProductId: urn:dataproduct:controlling:monthly-target-performance-report
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/monthly-target-performance-report
+---
+dataUsageAgreementSpecification: 0.0.1
+id: checkout.snowflake_orders_v2__controlling_looker_target_performing_report
+info:
+  purpose: Use orders to calculate payment amount
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:orders
+  outputPortId: snowflake_orders_npii_v2
+consumer:
+  teamId: controlling
+  dataProductId: urn:dataproduct:controlling:monthly-target-performance-report
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/monthly-target-performance-report

@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: emmvvgqufqcjfkkbyy2rh
+info:
+  purpose: Funnel analytics
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:orders
+  outputPortId: snowflake_orders_pii_v2
+consumer:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:funnel-analytics
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/funnel-analytics
+---
+dataUsageAgreementSpecification: 0.0.1
+id: emmvvgqufqcjfkkbyy2rh
+info:
+  purpose: Funnel analytics
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:orders
+  outputPortId: snowflake_orders_pii_v2
+consumer:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:funnel-analytics
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/funnel-analytics

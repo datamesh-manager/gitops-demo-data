@@ -1,0 +1,35 @@
+id: controlling
+name: Controlling
+type: Domain Team
+members:
+  - emailAddress: aimee.georgina@demo6mwGbAybmx2fEMXud0pPK4.datamesh-manager.com
+    role: Team Member
+  - emailAddress: jameson.conway@demo5QGEr3HCCKsqU9iA2n1Awc.datamesh-manager.com
+    role: Team Member
+  - emailAddress: hallie.stella@demo3nHCdoSHM2fgIXj5OLC1RQ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: wallis.cate@demo3iyEjGOSwDbxfOCug8ki5q.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: controlling
+name: Controlling
+type: Domain Team
+members:
+  - emailAddress: aimee.georgina@demo6mwGbAybmx2fEMXud0pPK4.datamesh-manager.com
+    role: Team Member
+  - emailAddress: jameson.conway@demo5QGEr3HCCKsqU9iA2n1Awc.datamesh-manager.com
+    role: Team Member
+  - emailAddress: hallie.stella@demo3nHCdoSHM2fgIXj5OLC1RQ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: wallis.cate@demo3iyEjGOSwDbxfOCug8ki5q.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

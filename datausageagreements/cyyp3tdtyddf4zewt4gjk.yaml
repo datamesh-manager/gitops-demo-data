@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: cyyp3tdtyddf4zewt4gjk
+info:
+  purpose: Project current state
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-history
+  outputPortId: snowflake_articles_history
+consumer:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-latest
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/articles-latest
+---
+dataUsageAgreementSpecification: 0.0.1
+id: cyyp3tdtyddf4zewt4gjk
+info:
+  purpose: Project current state
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-history
+  outputPortId: snowflake_articles_history
+consumer:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-latest
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/articles-latest

@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: zlblaz4zi2hniqfgpp4vu
+info:
+  purpose: Use to classify users and their cohort in realtime
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:customer-cohorts
+  outputPortId: snowflake
+consumer:
+  teamId: search
+  dataProductId: urn:dataproduct:search:realtime-user-classification
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/realtime-user-classification
+---
+dataUsageAgreementSpecification: 0.0.1
+id: zlblaz4zi2hniqfgpp4vu
+info:
+  purpose: Use to classify users and their cohort in realtime
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:customer-cohorts
+  outputPortId: snowflake
+consumer:
+  teamId: search
+  dataProductId: urn:dataproduct:search:realtime-user-classification
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/realtime-user-classification

@@ -1,0 +1,39 @@
+id: search
+name: Search
+type: Domain Team
+members:
+  - emailAddress: carter.alanis@demo5MW6pRTcOs4iDQkXoQVPyP.datamesh-manager.com
+    role: Team Member
+  - emailAddress: lianne.gerrard@demo4P2rjL3jhc69LnJxu3H2q2.datamesh-manager.com
+    role: Team Member
+  - emailAddress: kristeen.sarina@demo46aiuz31ZMSiaxntTwpvQ6.datamesh-manager.com
+    role: Team Member
+  - emailAddress: destinee.tanzi@demo7fan9c9f2EAYL01dScQA12.datamesh-manager.com
+    role: Team Member
+  - emailAddress: darius.duana@demock0Fl0g39a0vMwn6FUXfN.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: search
+name: Search
+type: Domain Team
+members:
+  - emailAddress: carter.alanis@demo5MW6pRTcOs4iDQkXoQVPyP.datamesh-manager.com
+    role: Team Member
+  - emailAddress: lianne.gerrard@demo4P2rjL3jhc69LnJxu3H2q2.datamesh-manager.com
+    role: Team Member
+  - emailAddress: kristeen.sarina@demo46aiuz31ZMSiaxntTwpvQ6.datamesh-manager.com
+    role: Team Member
+  - emailAddress: destinee.tanzi@demo7fan9c9f2EAYL01dScQA12.datamesh-manager.com
+    role: Team Member
+  - emailAddress: darius.duana@demock0Fl0g39a0vMwn6FUXfN.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

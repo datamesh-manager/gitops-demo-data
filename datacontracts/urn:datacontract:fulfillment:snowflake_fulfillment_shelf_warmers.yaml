@@ -1,0 +1,131 @@
+dataContractSpecification: 0.9.2
+id: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+info:
+  title: Shelf Warmers
+  version: 1.0.0
+  description: A list of articles with no sales in last 6 months
+  owner: fulfillment
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  shelf_warmers:
+    description: Shelf warmers are articles that have not been sold in the last 6 months
+    fields:
+      sku:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/fulfillment/sku
+      timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/actual_timestamp
+      processing_timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/processed_timestamp
+definitions: {}
+examples:
+  - type: yaml
+    model: shelf_warmers
+    description: description
+    data:
+      - sku: SKU123
+        timestamp: 2023-07-28T09:15:00
+        processing_timestamp: 2023-07-28T09:17:30
+      - sku: SKU456
+        timestamp: 2023-07-28T10:30:45
+        processing_timestamp: 2023-07-28T10:32:12
+      - sku: SKU789
+        timestamp: 2023-07-28T11:45:20
+        processing_timestamp: 2023-07-28T11:48:05
+      - sku: SKU234
+        timestamp: 2023-07-28T12:55:10
+        processing_timestamp: 2023-07-28T12:57:40
+      - sku: SKU567
+        timestamp: 2023-07-28T13:10:15
+        processing_timestamp: 2023-07-28T13:12:22
+      - sku: SKU890
+        timestamp: 2023-07-28T14:20:30
+        processing_timestamp: 2023-07-28T14:23:10
+      - sku: SKU123
+        timestamp: 2023-07-28T15:40:00
+        processing_timestamp: 2023-07-28T15:42:18
+      - sku: SKU456
+        timestamp: 2023-07-28T16:55:30
+        processing_timestamp: 2023-07-28T16:57:50
+      - sku: SKU789
+        timestamp: 2023-07-28T17:30:20
+        processing_timestamp: 2023-07-28T17:33:00
+      - sku: SKU234
+        timestamp: 2023-07-28T18:15:45
+        processing_timestamp: 2023-07-28T18:18:12
+---
+dataContractSpecification: 0.9.2
+id: urn:datacontract:fulfillment:snowflake_fulfillment_shelf_warmers
+info:
+  title: Shelf Warmers
+  version: 1.0.0
+  description: A list of articles with no sales in last 6 months
+  owner: fulfillment
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  shelf_warmers:
+    description: Shelf warmers are articles that have not been sold in the last 6 months
+    fields:
+      sku:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/fulfillment/sku
+      timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/actual_timestamp
+      processing_timestamp:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/global/processed_timestamp
+definitions: {}
+examples:
+  - type: yaml
+    model: shelf_warmers
+    description: description
+    data:
+      - sku: SKU123
+        timestamp: 2023-07-28T09:15:00
+        processing_timestamp: 2023-07-28T09:17:30
+      - sku: SKU456
+        timestamp: 2023-07-28T10:30:45
+        processing_timestamp: 2023-07-28T10:32:12
+      - sku: SKU789
+        timestamp: 2023-07-28T11:45:20
+        processing_timestamp: 2023-07-28T11:48:05
+      - sku: SKU234
+        timestamp: 2023-07-28T12:55:10
+        processing_timestamp: 2023-07-28T12:57:40
+      - sku: SKU567
+        timestamp: 2023-07-28T13:10:15
+        processing_timestamp: 2023-07-28T13:12:22
+      - sku: SKU890
+        timestamp: 2023-07-28T14:20:30
+        processing_timestamp: 2023-07-28T14:23:10
+      - sku: SKU123
+        timestamp: 2023-07-28T15:40:00
+        processing_timestamp: 2023-07-28T15:42:18
+      - sku: SKU456
+        timestamp: 2023-07-28T16:55:30
+        processing_timestamp: 2023-07-28T16:57:50
+      - sku: SKU789
+        timestamp: 2023-07-28T17:30:20
+        processing_timestamp: 2023-07-28T17:33:00
+      - sku: SKU234
+        timestamp: 2023-07-28T18:15:45
+        processing_timestamp: 2023-07-28T18:18:12

@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: 3rzekzdqe4zbicyizxmfwe
+info:
+  purpose: Identify shelf warmers
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:stock-update-events
+  outputPortId: snowflake_fulfillment_stock_update_events
+consumer:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:shelf-warmers
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/shelf-warmers
+---
+dataUsageAgreementSpecification: 0.0.1
+id: 3rzekzdqe4zbicyizxmfwe
+info:
+  purpose: Identify shelf warmers
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:stock-update-events
+  outputPortId: snowflake_fulfillment_stock_update_events
+consumer:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:shelf-warmers
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/shelf-warmers

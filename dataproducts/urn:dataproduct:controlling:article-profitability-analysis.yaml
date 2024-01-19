@@ -1,0 +1,29 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:controlling:article-profitability-analysis
+info:
+  title: Article Profitability Analysis
+  owner: controlling
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:controlling:article-profitability-analysis
+info:
+  title: Article Profitability Analysis
+  owner: controlling
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}

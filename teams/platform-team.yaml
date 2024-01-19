@@ -1,0 +1,39 @@
+id: platform-team
+name: Platform Team
+type: Platform Team
+members:
+  - emailAddress: margery.melville@demo2esEoz8QWnah4LRik6Nd5e.datamesh-manager.com
+    role: Team Member
+  - emailAddress: elly.fern@demo7HFMFvH5TcsE1S9BiTSWKd.datamesh-manager.com
+    role: Team Member
+  - emailAddress: ken.luana@demoFX7oATqjSpm9YTkHUMEUb.datamesh-manager.com
+    role: Team Member
+  - emailAddress: laurence.lesly@demo1Th6FOBI84tm6DTLQXDH8z.datamesh-manager.com
+    role: Team Member
+  - emailAddress: carol.carver@demo1Ezp3qX8P9UaxB5ql81cqZ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: eveline.emory@demo69DkO0jni8vxrLb5ObyTy4.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: platform-team
+name: Platform Team
+type: Platform Team
+members:
+  - emailAddress: margery.melville@demo2esEoz8QWnah4LRik6Nd5e.datamesh-manager.com
+    role: Team Member
+  - emailAddress: elly.fern@demo7HFMFvH5TcsE1S9BiTSWKd.datamesh-manager.com
+    role: Team Member
+  - emailAddress: ken.luana@demoFX7oATqjSpm9YTkHUMEUb.datamesh-manager.com
+    role: Team Member
+  - emailAddress: laurence.lesly@demo1Th6FOBI84tm6DTLQXDH8z.datamesh-manager.com
+    role: Team Member
+  - emailAddress: carol.carver@demo1Ezp3qX8P9UaxB5ql81cqZ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: eveline.emory@demo69DkO0jni8vxrLb5ObyTy4.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

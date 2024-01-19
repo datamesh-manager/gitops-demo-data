@@ -1,0 +1,29 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:marketing:funnel-analytics
+info:
+  title: Funnel Analytics
+  owner: marketing
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:marketing:funnel-analytics
+info:
+  title: Funnel Analytics
+  owner: marketing
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts: []
+tags:
+  - demo
+links: {}
+custom: {}

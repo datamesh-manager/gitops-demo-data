@@ -1,0 +1,27 @@
+id: enabling-team
+name: Enabling Team
+type: Enabling Team
+members:
+  - emailAddress: joan.marly@demo5gmKbKiDlhYlOMk1WkifJS.datamesh-manager.com
+    role: Team Member
+  - emailAddress: jools.lecia@demo4HgPUjJlFPEwe7Um16eE03.datamesh-manager.com
+    role: Team Member
+  - emailAddress: marvin.penelope@demo3X4FtGCvx3Xoga94synVuc.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: enabling-team
+name: Enabling Team
+type: Enabling Team
+members:
+  - emailAddress: joan.marly@demo5gmKbKiDlhYlOMk1WkifJS.datamesh-manager.com
+    role: Team Member
+  - emailAddress: jools.lecia@demo4HgPUjJlFPEwe7Um16eE03.datamesh-manager.com
+    role: Team Member
+  - emailAddress: marvin.penelope@demo3X4FtGCvx3Xoga94synVuc.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

@@ -1,0 +1,119 @@
+dataContractSpecification: 0.9.2
+id: urn:datacontract:marketing:snowflake
+info:
+  title: Customer Cohorts
+  version: 1.0.0
+  description: A table with customer cohorts and their properties
+  owner: marketing
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  customer_cohorts:
+    description: Table containing customer cohorts information.
+    fields:
+      customer_id:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/checkout/customer_id
+      cohort_id:
+        type: string
+        description: Identifier for the cohort the customer belongs to.
+        required: true
+        tags: []
+      cohort_name:
+        type: string
+        description: Name of the cohort.
+        tags: []
+      start_date:
+        type: date
+        description: Start date of the cohort.
+        tags: []
+      end_date:
+        type: date
+        description: End date of the cohort.
+        tags: []
+      description:
+        type: string
+        description: Additional description or notes about the cohort.
+        tags: []
+definitions: {}
+examples:
+  - type: csv
+    model: ""
+    description: ""
+    data: |2-
+             customer_id,cohort_id,cohort_name,start_date,end_date,description
+      101,1,Cohort A,2023-01-01,2023-06-30,First-time customers in H1 2023
+      102,2,Cohort B,2023-02-01,2023-07-31,Returning customers in H1 2023
+      103,1,Cohort A,2023-01-01,2023-06-30,First-time customers in H1 2023
+      104,3,Cohort C,2023-03-01,2023-08-31,New customers in H1 2023
+      105,2,Cohort B,2023-02-01,2023-07-31,Returning customers in H1 2023
+      106,4,Cohort D,2023-04-01,2023-09-30,High-value customers in H1 2023
+      107,3,Cohort C,2023-03-01,2023-08-31,New customers in H1 2023
+      108,5,Cohort E,2023-05-01,2023-10-31,Loyal customers in H1 2023
+      109,6,Cohort F,2023-06-01,2023-11-30,Inactive customers in H1 2023
+      110,4,Cohort D,2023-04-01,2023-09-30,High-value customers in H1 2023
+---
+dataContractSpecification: 0.9.2
+id: urn:datacontract:marketing:snowflake
+info:
+  title: Customer Cohorts
+  version: 1.0.0
+  description: A table with customer cohorts and their properties
+  owner: marketing
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  customer_cohorts:
+    description: Table containing customer cohorts information.
+    fields:
+      customer_id:
+        required: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/checkout/customer_id
+      cohort_id:
+        type: string
+        description: Identifier for the cohort the customer belongs to.
+        required: true
+        tags: []
+      cohort_name:
+        type: string
+        description: Name of the cohort.
+        tags: []
+      start_date:
+        type: date
+        description: Start date of the cohort.
+        tags: []
+      end_date:
+        type: date
+        description: End date of the cohort.
+        tags: []
+      description:
+        type: string
+        description: Additional description or notes about the cohort.
+        tags: []
+definitions: {}
+examples:
+  - type: csv
+    model: ""
+    description: ""
+    data: |2-
+             customer_id,cohort_id,cohort_name,start_date,end_date,description
+      101,1,Cohort A,2023-01-01,2023-06-30,First-time customers in H1 2023
+      102,2,Cohort B,2023-02-01,2023-07-31,Returning customers in H1 2023
+      103,1,Cohort A,2023-01-01,2023-06-30,First-time customers in H1 2023
+      104,3,Cohort C,2023-03-01,2023-08-31,New customers in H1 2023
+      105,2,Cohort B,2023-02-01,2023-07-31,Returning customers in H1 2023
+      106,4,Cohort D,2023-04-01,2023-09-30,High-value customers in H1 2023
+      107,3,Cohort C,2023-03-01,2023-08-31,New customers in H1 2023
+      108,5,Cohort E,2023-05-01,2023-10-31,Loyal customers in H1 2023
+      109,6,Cohort F,2023-06-01,2023-11-30,Inactive customers in H1 2023
+      110,4,Cohort D,2023-04-01,2023-09-30,High-value customers in H1 2023

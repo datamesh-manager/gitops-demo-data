@@ -1,0 +1,10 @@
+id: global/processed_timestamp
+owner: enabling-team
+domain: global
+name: processed_timestamp
+title: Processed Timestamp
+description: The timestamp when the record of this dataset is processed. Typically, this is when it is saved.
+type: timestamp
+example: "2023-11-23T11:00:33Z"
+pii: false
+tags: []

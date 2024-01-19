@@ -1,0 +1,10 @@
+id: checkout/customer_id
+owner: checkout
+domain: checkout
+name: customer_id
+title: Customer ID
+description: The internal ID of any customer in the online shop. Guest customers have a customer ID as well.
+type: string
+example: "101"
+classification: restricted
+tags: []

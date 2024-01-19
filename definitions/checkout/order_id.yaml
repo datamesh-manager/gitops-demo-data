@@ -1,0 +1,10 @@
+id: checkout/order_id
+owner: checkout
+domain: checkout
+name: order_id
+title: Order ID
+description: The user-facing ID that identifies an order in the online shop. Also used for support requests.
+type: string
+example: "1000314678"
+classification: restricted
+tags: []

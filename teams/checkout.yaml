@@ -1,0 +1,55 @@
+id: checkout
+name: Checkout
+type: Domain Team
+members:
+  - emailAddress: scarlett.layton@demo24OEj0izDKfJHBaz1TCTEM.datamesh-manager.com
+    role: Team Member
+  - emailAddress: lindsie.jaycee@demo48jo41NwbhqPZKfzmNldMp.datamesh-manager.com
+    role: Team Member
+  - emailAddress: brayden.cary@demo5LAiFm9ZjRllrzHOI80kgN.datamesh-manager.com
+    role: Team Member
+  - emailAddress: osbert.mackenzie@demo1qmpRrwEdZYoMecsVoTJqS.datamesh-manager.com
+    role: Team Member
+  - emailAddress: ibbie.sevyn@demo5WKbI6jHL7JCK4XhnSBQzZ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: vin.avery@demo7i7mk4Xk3XRmJuyFkjk6VF.datamesh-manager.com
+    role: Team Member
+  - emailAddress: maryanne.phoenix@demo4njWHAmUXJOsTkaI9awpQk.datamesh-manager.com
+    role: Team Member
+  - emailAddress: yorick.bert@demo3BlX9mOijqVnEJ7USd4Kia.datamesh-manager.com
+    role: Team Member
+  - emailAddress: juliet.peers@demo7wfympBvXRrFe7vvj1Bp3.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: checkout
+name: Checkout
+type: Domain Team
+members:
+  - emailAddress: scarlett.layton@demo24OEj0izDKfJHBaz1TCTEM.datamesh-manager.com
+    role: Team Member
+  - emailAddress: lindsie.jaycee@demo48jo41NwbhqPZKfzmNldMp.datamesh-manager.com
+    role: Team Member
+  - emailAddress: brayden.cary@demo5LAiFm9ZjRllrzHOI80kgN.datamesh-manager.com
+    role: Team Member
+  - emailAddress: osbert.mackenzie@demo1qmpRrwEdZYoMecsVoTJqS.datamesh-manager.com
+    role: Team Member
+  - emailAddress: ibbie.sevyn@demo5WKbI6jHL7JCK4XhnSBQzZ.datamesh-manager.com
+    role: Team Member
+  - emailAddress: vin.avery@demo7i7mk4Xk3XRmJuyFkjk6VF.datamesh-manager.com
+    role: Team Member
+  - emailAddress: maryanne.phoenix@demo4njWHAmUXJOsTkaI9awpQk.datamesh-manager.com
+    role: Team Member
+  - emailAddress: yorick.bert@demo3BlX9mOijqVnEJ7USd4Kia.datamesh-manager.com
+    role: Team Member
+  - emailAddress: juliet.peers@demo7wfympBvXRrFe7vvj1Bp3.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

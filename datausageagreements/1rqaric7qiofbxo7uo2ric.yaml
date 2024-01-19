@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: 1rqaric7qiofbxo7uo2ric
+info:
+  purpose: Use latest prices to evaluate the business value of shelf warmers
+  status: requested
+  active: false
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-latest
+  outputPortId: snowflake_articles_latest
+consumer:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:shelf-warmers
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/shelf-warmers
+---
+dataUsageAgreementSpecification: 0.0.1
+id: 1rqaric7qiofbxo7uo2ric
+info:
+  purpose: Use latest prices to evaluate the business value of shelf warmers
+  status: requested
+  active: false
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: products
+  dataProductId: urn:dataproduct:products:articles-latest
+  outputPortId: snowflake_articles_latest
+consumer:
+  teamId: fulfillment
+  dataProductId: urn:dataproduct:fulfillment:shelf-warmers
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/shelf-warmers

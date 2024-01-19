@@ -1,0 +1,57 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:controlling:monthly-target-performance-report
+info:
+  title: Monthly Target Performance Report
+  owner: controlling
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: looker_target_performing_report
+    name: looker_target_performing_report
+    description: Data for a monthly report that compares the turnover and profitability targets with the actual sales.
+    type: Looker Look
+    status: active
+    location: https://example.dev.looker.com/x/12312312323
+    autoApprove: false
+    containsPii: false
+    tags:
+      - looker look
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:controlling:monthly-target-performance-report
+info:
+  title: Monthly Target Performance Report
+  owner: controlling
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts: []
+outputPorts:
+  - id: looker_target_performing_report
+    name: looker_target_performing_report
+    description: Data for a monthly report that compares the turnover and profitability targets with the actual sales.
+    type: Looker Look
+    status: active
+    location: https://example.dev.looker.com/x/12312312323
+    autoApprove: false
+    containsPii: false
+    tags:
+      - looker look
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}

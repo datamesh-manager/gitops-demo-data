@@ -1,0 +1,17 @@
+id: article-service
+name: Article Service
+owner: products
+description: The central self-contained system for articles.
+tags: []
+links:
+  Source System: http://internal.acme.example.com/product/article-service
+custom: {}
+---
+id: article-service
+name: Article Service
+owner: products
+description: The central self-contained system for articles.
+tags: []
+links:
+  Source System: http://internal.acme.example.com/product/article-service
+custom: {}

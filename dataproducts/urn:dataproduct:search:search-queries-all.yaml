@@ -1,0 +1,111 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:search-queries-all
+info:
+  title: Search Queries All
+  description: All search queries and results since 2020.
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: elastic-searches
+    name: Searches Elastic
+    description: Searches in Elastic
+    sourceSystemId: opensearch
+    type: elasticdump
+    location: acme.search.clicks
+    tags: []
+    links: {}
+    custom: {}
+  - id: s3-searches
+    name: Searches S3
+    description: Searches in S3
+    sourceSystemId: search-service
+    type: AWS S3
+    location: s3://example-opensearch-dump
+    tags: []
+    links: {}
+    custom: {}
+outputPorts:
+  - id: search_queries_all_v1
+    name: search_queries_all_v1
+    description: All search queries and result sets with PII removed.
+    type: snowflake
+    server:
+      schema: SEARCH_QUERIES_ALL_NPII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: SEARCH_DB
+    status: active
+    location: SEARCH_DB.SEARCH_QUERIES_ALL_NPII_V1
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:search:search_queries_all_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links:
+  Data Catalog: https://datacatalog.example.com/search-queries-all
+  Repository: https://git.example.com/search-queries-all
+  Documentation: https://gitpages.example.com/search-queries-all
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:search:search-queries-all
+info:
+  title: Search Queries All
+  description: All search queries and results since 2020.
+  owner: search
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: elastic-searches
+    name: Searches Elastic
+    description: Searches in Elastic
+    sourceSystemId: opensearch
+    type: elasticdump
+    location: acme.search.clicks
+    tags: []
+    links: {}
+    custom: {}
+  - id: s3-searches
+    name: Searches S3
+    description: Searches in S3
+    sourceSystemId: search-service
+    type: AWS S3
+    location: s3://example-opensearch-dump
+    tags: []
+    links: {}
+    custom: {}
+outputPorts:
+  - id: search_queries_all_v1
+    name: search_queries_all_v1
+    description: All search queries and result sets with PII removed.
+    type: snowflake
+    server:
+      schema: SEARCH_QUERIES_ALL_NPII_V1
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: SEARCH_DB
+    status: active
+    location: SEARCH_DB.SEARCH_QUERIES_ALL_NPII_V1
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:search:search_queries_all_v1
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links:
+  Data Catalog: https://datacatalog.example.com/search-queries-all
+  Repository: https://git.example.com/search-queries-all
+  Documentation: https://gitpages.example.com/search-queries-all
+custom: {}

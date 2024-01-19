@@ -1,0 +1,91 @@
+dataContractSpecification: 0.9.2
+id: urn:datacontract:checkout:s3_customers_history_npii_v1
+info:
+  title: Customers History NPII
+  version: 1.0.0
+  description: All customer states, updated on every modifying event. PII removed.
+  owner: checkout
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  customers:
+    type: table
+    description: Retrieves and transforms customer data
+    fields:
+      customer_id:
+        required: true
+        unique: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/checkout/customer_id
+      created_at:
+        type: timestamp
+        description: Timestamp indicating when the customer record was created
+        required: true
+        tags: []
+definitions: {}
+examples:
+  - type: csv
+    model: ""
+    description: ""
+    data: |-
+      customer_id,created_at
+      101,2023-07-28T10:15:00Z
+      102,2023-07-28T11:30:45Z
+      103,2023-07-28T12:45:20Z
+      104,2023-07-28T14:00:10Z
+      105,2023-07-28T15:20:15Z
+      106,2023-07-28T16:40:30Z
+      107,2023-07-28T17:55:00Z
+      108,2023-07-28T19:10:30Z
+      109,2023-07-28T20:25:15Z
+      110,2023-07-28T21:40:45Z
+---
+dataContractSpecification: 0.9.2
+id: urn:datacontract:checkout:s3_customers_history_npii_v1
+info:
+  title: Customers History NPII
+  version: 1.0.0
+  description: All customer states, updated on every modifying event. PII removed.
+  owner: checkout
+servers: {}
+terms:
+  usage: Max. 10x queries per day
+  limitations: Not suitable for real-time use cases
+  billing: $1000 / month
+  noticePeriod: P3M
+models:
+  customers:
+    type: table
+    description: Retrieves and transforms customer data
+    fields:
+      customer_id:
+        required: true
+        unique: true
+        tags: []
+        $ref: http://localhost:8080/demo357349941229/definitions/checkout/customer_id
+      created_at:
+        type: timestamp
+        description: Timestamp indicating when the customer record was created
+        required: true
+        tags: []
+definitions: {}
+examples:
+  - type: csv
+    model: ""
+    description: ""
+    data: |-
+      customer_id,created_at
+      101,2023-07-28T10:15:00Z
+      102,2023-07-28T11:30:45Z
+      103,2023-07-28T12:45:20Z
+      104,2023-07-28T14:00:10Z
+      105,2023-07-28T15:20:15Z
+      106,2023-07-28T16:40:30Z
+      107,2023-07-28T17:55:00Z
+      108,2023-07-28T19:10:30Z
+      109,2023-07-28T20:25:15Z
+      110,2023-07-28T21:40:45Z

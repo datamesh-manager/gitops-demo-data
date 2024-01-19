@@ -1,0 +1,41 @@
+dataUsageAgreementSpecification: 0.0.1
+id: checkout.snowflake_customers_latest_pii_v1__marketing.customer_cohorts
+info:
+  purpose: Use customer data to build categories for customer groups (cohorts).
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:customers
+  outputPortId: snowflake_customers_latest_pii_v1
+consumer:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:customer-cohorts
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/customer-cohorts
+---
+dataUsageAgreementSpecification: 0.0.1
+id: checkout.snowflake_customers_latest_pii_v1__marketing.customer_cohorts
+info:
+  purpose: Use customer data to build categories for customer groups (cohorts).
+  status: approved
+  active: true
+  startDate: "2023-12-31"
+  nextReassessmentDate: "2023-01-01"
+provider:
+  teamId: checkout
+  dataProductId: urn:dataproduct:checkout:customers
+  outputPortId: snowflake_customers_latest_pii_v1
+consumer:
+  teamId: marketing
+  dataProductId: urn:dataproduct:marketing:customer-cohorts
+tags:
+  - demo
+links: {}
+custom:
+  role: arn:aws:iam::123456789012:role/customer-cohorts

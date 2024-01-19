@@ -1,0 +1,17 @@
+id: opensearch
+name: OpenSearch
+owner: search
+description: The index for the ecommerce search
+tags: []
+links:
+  OpenSearch Dashboards: http://internal.acme.example.com/search/dashboard
+custom: {}
+---
+id: opensearch
+name: OpenSearch
+owner: search
+description: The index for the ecommerce search
+tags: []
+links:
+  OpenSearch Dashboards: http://internal.acme.example.com/search/dashboard
+custom: {}

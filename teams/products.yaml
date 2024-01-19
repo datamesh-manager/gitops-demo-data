@@ -1,0 +1,35 @@
+id: products
+name: Products
+type: Domain Team
+members:
+  - emailAddress: gordie.stuart@demo3e7Dh5vgkhoukmvxO205HH.datamesh-manager.com
+    role: Team Member
+  - emailAddress: shirley.issac@demo7H3SeLU5xwMoeVlJ70dvTP.datamesh-manager.com
+    role: Team Member
+  - emailAddress: sherwood.reenie@demoz7PLUfQJrpbqslN6XdwkY.datamesh-manager.com
+    role: Team Member
+  - emailAddress: bronte.rosalin@demo7Xx4pvVFbXduQSnRvzCUr4.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}
+---
+id: products
+name: Products
+type: Domain Team
+members:
+  - emailAddress: gordie.stuart@demo3e7Dh5vgkhoukmvxO205HH.datamesh-manager.com
+    role: Team Member
+  - emailAddress: shirley.issac@demo7H3SeLU5xwMoeVlJ70dvTP.datamesh-manager.com
+    role: Team Member
+  - emailAddress: sherwood.reenie@demoz7PLUfQJrpbqslN6XdwkY.datamesh-manager.com
+    role: Team Member
+  - emailAddress: bronte.rosalin@demo7Xx4pvVFbXduQSnRvzCUr4.datamesh-manager.com
+    role: Team Member
+  - emailAddress: demo.user@demo7l9BuGEhKUa7kWWOE1JNn7.datamesh-manager.com
+    role: Team Member
+tags: []
+links: {}
+custom: {}

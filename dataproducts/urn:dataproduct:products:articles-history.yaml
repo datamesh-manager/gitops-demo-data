@@ -1,0 +1,87 @@
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:products:articles-history
+info:
+  title: Articles history
+  owner: products
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-articles
+    name: Articles Kafka
+    description: Article Updates in Kafka
+    sourceSystemId: article-service
+    type: Kafka Topic
+    location: acme.articles.current-state
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.articles.current-state
+    custom: {}
+outputPorts:
+  - id: snowflake_articles_history
+    name: snowflake_articles_history
+    description: All article snapshots since 2020
+    type: snowflake
+    server:
+      schema: ARTICLES_HISTORY
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ARTICLES_DB
+    status: active
+    location: ARTICLES_DB.ARTICLES_HISTORY
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:products:snowflake_articles_history
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
+---
+dataProductSpecification: 0.0.1
+id: urn:dataproduct:products:articles-history
+info:
+  title: Articles history
+  owner: products
+  status: active
+  archetype: source-aligned
+  maturity: managed
+inputPorts:
+  - id: kafka-articles
+    name: Articles Kafka
+    description: Article Updates in Kafka
+    sourceSystemId: article-service
+    type: Kafka Topic
+    location: acme.articles.current-state
+    tags: []
+    links:
+      location: http://internal.eventcatalog.example.com/?event=acme.articles.current-state
+    custom: {}
+outputPorts:
+  - id: snowflake_articles_history
+    name: snowflake_articles_history
+    description: All article snapshots since 2020
+    type: snowflake
+    server:
+      schema: ARTICLES_HISTORY
+      account: https://acme-test_aws_us_east_2.snowflakecomputing.com
+      database: ARTICLES_DB
+    status: active
+    location: ARTICLES_DB.ARTICLES_HISTORY
+    autoApprove: false
+    containsPii: false
+    dataContractId: urn:datacontract:products:snowflake_articles_history
+    tags:
+      - snowflake
+      - demo
+    links:
+      location: http://link-to-location.example.com
+    custom: {}
+tags:
+  - demo
+links: {}
+custom: {}
